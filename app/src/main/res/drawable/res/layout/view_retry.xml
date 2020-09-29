@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:layout_gravity="center"
+    android:id="@+id/rl_retry"
+    android:visibility="visible"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="35dp"
+    android:layout_centerInParent="true"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    cardview:cardCornerRadius="7dp"
+    cardview:cardElevation="3dp"
+    cardview:cardUseCompatPadding="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="120dp">
+        <ImageView
+            android:id="@+id/icon_sad"
+            android:background="@color/colorPrimary"
+            android:padding="10dp"
+            android:layout_width="80dp"
+            android:layout_height="fill_parent"
+            android:src="@drawable/ic_sad_2_white" />
+        <TextView
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/text_placeholder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/oups"
+            android:layout_toRightOf="@+id/icon_sad"
+            android:layout_toEndOf="@+id/icon_sad" />
+        <TextView
+            android:textSize="12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/no_connexion_text"
+            android:layout_toRightOf="@id/icon_sad"
+            android:layout_below="@id/text_placeholder"
+            android:layout_toEndOf="@id/icon_sad" />
+        <Button
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/btn_retry"
+            android:background="@android:color/transparent"
+            android:layout_width="wrap_content"
+            android:layout_height="30.0dip"
+            android:layout_marginRight="1dp"
+            android:text="@string/tryagaing"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="1dp" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

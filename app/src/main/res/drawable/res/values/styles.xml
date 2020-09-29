@@ -1,0 +1,26 @@
+<resources>
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar.Bridge">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" >
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <!--<style name="SearchViewStyle" parent="Widget.AppCompat.SearchView">
+        &lt;!&ndash; Gets rid of the search icon&ndash;&gt;
+        <item name="searchHintIcon">@drawable/ic_search</item>
+        &lt;!&ndash; Gets rid of the "underline" in the text &ndash;&gt;
+        <item name="queryBackground">@drawable/bg_toolbar</item>
+        &lt;!&ndash; The hint text that appears when the user has not typed anything &ndash;&gt;
+        <item name="queryHint">@string/search_hint</item>
+        <item name="android:tint">@android:color/white</item>
+        <item name="hintTextColor">@android:color/white</item>
+        <item name="closeIconTint">@android:color/white</item>
+    </style>-->
+
+    <string name="search_hint">Recherche</string>
+</resources>

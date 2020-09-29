@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.example.senlonase.utils.StatusBarView
+        android:id="@+id/status_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_toolbar" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="?android:actionBarSize"
+        android:background="@drawable/bg_toolbar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?android:actionBarSize">
+
+            <ImageView
+                android:id="@+id/iv_back"
+                android:layout_width="wrap_content"
+                android:layout_height="?android:actionBarSize"
+                android:padding="10dp"
+                android:src="@drawable/ic_back"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="?android:actionBarSize"
+                android:padding="5dp"
+                android:src="@drawable/logo"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/typo"
+                android:layout_width="wrap_content"
+                android:layout_height="?android:actionBarSize"
+                android:padding="10dp"
+                android:src="@drawable/ic_typo"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="10dp"
+                tools:ignore="ContentDescription"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="10dp" />
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+
+</LinearLayout>

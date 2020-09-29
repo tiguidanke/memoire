@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SEN_LONASE</string>
+    <string name="no_connexion_text">Veuillez vérifier votre connexion internet</string>
+    <string name="tryagaing">Réessayer</string>
+    <string name="oups">OOPS, PROBLEME DE CONNEXION !</string>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+    <string name="action_search">Recherche</string>
+    <string name="sure_quit">Etes-vous sûr de vouloir fermer l\'application?</string>
+    <string name="exit">Quitter</string>
+    <string name="cancel">Annuler</string>
+    <string name="titre">Titre</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
